@@ -1,0 +1,17 @@
+{
+  "source": ["aws.config"],
+  "detail-type": ["Config Rules Compliance Change"],
+  "detail": {
+    "messageType": ["ComplianceChangeNotification"],
+    "configRuleName": [
+      "s3-bucket-versioning-enabled",
+      "s3-bucket-level-public-access-prohibited",
+      "restricted-ssh",
+      "rds-instance-public-access-check",
+      "ec2-ebs-encryption-by-default"
+    ],
+    "newEvaluationResult": {
+      "complianceType": ["NON_COMPLIANT"]
+    }
+  }
+}
